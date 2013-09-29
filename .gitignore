@@ -30,7 +30,7 @@ nbproject/
 ############
 
 node_modules/
-library/*
+library/
 
 ############
 ## OSes
