@@ -29,6 +29,13 @@ nbproject/
 ## OSes
 ############
 
+node_modules/
+library/*
+
+############
+## OSes
+############
+
 [Tt]humbs.db
 [Dd]esktop.ini
 *.DS_store

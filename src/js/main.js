@@ -22,9 +22,9 @@ if (!window.getComputedStyle) {
                 });
             }
             return el.currentStyle[prop] ? el.currentStyle[prop] : null;
-        }
+        };
         return this;
-    }
+    };
 }
 
 // as the page loads, call these scripts
