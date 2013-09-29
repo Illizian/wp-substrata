@@ -67,7 +67,6 @@ module.exports = function(grunt) {
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-  grunt.registerTask('default', [ 'jshint', 'clean:library', 'uglify:build', 'less:build', 'copy', 'watch' ]);
-  grunt.registerTask('build', [ 'jshint', 'clean:library', 'uglify:build', 'less:build', 'copy' ]);
-  grunt.registerTask('clean', [ 'clean' ]);
+  grunt.registerTask('default', [ 'jshint', 'uglify:build', 'less:build', 'copy', 'watch' ]);
+  grunt.registerTask('build', [ 'jshint', 'uglify:build', 'less:build', 'copy' ]);
 };
